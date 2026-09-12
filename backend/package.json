@@ -1,0 +1,22 @@
+{
+  "name": "wayfare-backend",
+  "version": "1.0.0",
+  "description": "Wayfare backend API",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cloudinary": "^2.11.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^4.22.2",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.10.0",
+    "multer": "^2.3.0",
+    "razorpay": "^2.9.8"
+  }
+}

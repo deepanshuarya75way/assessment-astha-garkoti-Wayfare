@@ -23,6 +23,10 @@ export default function Navbar() {
     navigate("/host/apply");
   }
 
+  function Disputes(){
+    navigate("/dispute");
+  }
+
   return (
     <>
       <header className="sticky top-0 z-40 bg-parchment/90 backdrop-blur border-b border-line">
@@ -53,6 +57,14 @@ export default function Navbar() {
             <Link to="/favorites" className="hover:text-ink transition-colors">
               Favorites
             </Link>
+           
+
+            <button
+              onClick={Disputes}
+              className="hover:text-ink transition-colors"
+            >
+              Dispute
+            </button>
 
             <button
               onClick={handleBecomeHost}

@@ -14,6 +14,7 @@ import MyTrips from './pages/MyTrips.jsx'
 import HostBookings from './pages/HostBookings.jsx'
 import ProtectedRoute from './components/ProtectedRoute.jsx'
 import ErrorBoundary from './components/ErrorBoundary.jsx'
+import Dispute from './pages/Dispute.jsx'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/" element={<Landing />} />
           <Route path="/explore" element={<Explore />} />
           <Route path="/favorites" element={<Favorites />} />
+          <Route path="/dispute" element={<Dispute />} />
           <Route path="/listing/:id" element={<ListingDetail />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />

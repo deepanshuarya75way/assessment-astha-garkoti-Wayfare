@@ -32,7 +32,7 @@ function Dispute(){
       const token = localStorage.getItem("wayfare_token");
 
       const response = await fetch(
-        `${import.meta.env.VITE_API_URL || "http://localhost:5000/api"}/listings`,
+        `${import.meta.env.VITE_API_URL || "http://localhost:5000/api"}/disputes`,
         {
           method: "POST",
           headers: {
